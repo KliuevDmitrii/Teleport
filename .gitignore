@@ -433,11 +433,11 @@ pyrightconfig.json
 *mies
 
 # Other names that would make sense
-*tests
+#*tests
 *testsdir
 *testsfile
 *testsfiles
-*test
+#*test
 *testdir
 *testfile
 *testfiles
