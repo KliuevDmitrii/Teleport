@@ -34,5 +34,6 @@ class AuthPage:
     def click_button(self):
         self.__driver.find_element(By.CSS_SELECTOR, 'span.p-button-label[data-pc-section="label"]').click()
 
+    @allure.step("Получить текущий URL")
     def get_current_url(self):
         return self.__driver.current_url

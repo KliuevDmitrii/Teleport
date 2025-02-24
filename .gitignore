@@ -4,6 +4,8 @@ __pycache__
 allure-result
 
 allure*
+allure-report/
+allure-files/
 
 .pytest_cache
 __pycache__
