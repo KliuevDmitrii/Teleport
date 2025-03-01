@@ -22,6 +22,7 @@
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
 - ./db - хелперы для работы с БД
+- test_config.ini - настройки для тестов
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
@@ -33,3 +34,4 @@
 - pip3 install selenium
 - pip3 install webdriver-manager
 - pip3 install allure-pytest
+- pip3 install requests
