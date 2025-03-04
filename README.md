@@ -4,7 +4,7 @@
 
 ### Шаги
 1. Склонировать проект 'git clone https://github.com/KliuevDmitrii/Teleport.git'
-2. Установить зависимости
+2. Установить зависимости 'pip3 install > -r requirements.txt'
 3. Запустить тесты 'pytest'
 4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
 5. Открыть отчет 'allure open allure-report'
@@ -15,7 +15,8 @@
 - requests
 - _sqlalchemy_
 - allure
-- config
+- configparser
+- json
 
 ### Струткура:
 - ./test - тесты
@@ -27,11 +28,4 @@
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
 - [Генератор файла .gitignore](https://www.toptal.com/developers/gitignore)
-
-
-### Библиотеки
-- pip3 install pytest
-- pip3 install selenium
-- pip3 install webdriver-manager
-- pip3 install allure-pytest
-- pip3 install requests
+- [Про pip freeze](https://pip.pypa.io/en/stable/cli/pip_freeze/)

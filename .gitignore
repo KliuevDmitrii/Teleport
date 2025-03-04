@@ -3,6 +3,11 @@ __pycache__
 .vscode
 allure-result
 
+test_data.json
+test_config.ini
+config.ini
+.env
+
 allure*
 allure-report/
 allure-files/
