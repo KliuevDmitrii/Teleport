@@ -21,8 +21,8 @@ class AuthPage:
     def go(self):
         self.__driver.get(self.__url)
 
-    @allure.step("Ввести email")
-    def enter_email(self, email: str):
+    @allure.step("Ввести email\логин")
+    def enter_email_username(self, email: str):
         element = self.__driver.find_element(By.CSS_SELECTOR, 'input[placeholder="Логин или эл. почта"]')
         element.clear()
         element.send_keys(email)

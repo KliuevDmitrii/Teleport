@@ -10,6 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
 from configuration.ConfigProvider import ConfigProvider
+from testdata.DataProvider import DataProvider
 
 @pytest.fixture
 def browser():
@@ -36,3 +37,7 @@ def browser():
 
     with allure.step("Закрыть браузер"):
             browser.quit()
+
+@pytest.fixture
+def test_data():
+    return DataProvider()
