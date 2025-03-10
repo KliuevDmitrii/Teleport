@@ -30,10 +30,3 @@ def auth_test(browser, test_data: dict):
         with allure.step("Имя пользователя должно быть "+username):
              assert info[0] == username
 
-
-    
-    # with allure.step(f"Текущий URL: {auth_page.get_current_url()}"):
-    #    pass  # Логируем URL в отчете Allure
-
-    # with allure.step("Проверка редиректа после авторизации"):
-    #     assert auth_page.get_current_url().endswith("admin/#/transfers"), "Редирект не произошел или URL некорректный"
